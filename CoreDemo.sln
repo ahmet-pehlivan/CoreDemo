@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreDemo", "CoreDemo\CoreDemo.csproj", "{F76AECDA-A872-4D64-8855-C2EE0D36E8BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreDemo", "CoreDemo\CoreDemo.csproj", "{F76AECDA-A872-4D64-8855-C2EE0D36E8BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{3D353265-BE5D-4F44-B56F-725AC8F5DE35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{3D353265-BE5D-4F44-B56F-725AC8F5DE35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{80E3B87E-47BD-40AE-B650-2BD32CBE834D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{80E3B87E-47BD-40AE-B650-2BD32CBE834D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{1563D696-C443-4B25-B4D7-902F0F954E8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{1563D696-C443-4B25-B4D7-902F0F954E8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLayer", "CoreLayer\CoreLayer.csproj", "{B3562717-C579-4169-A86D-B4DAF2C6DCDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLayer", "CoreLayer\CoreLayer.csproj", "{B3562717-C579-4169-A86D-B4DAF2C6DCDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogApiDemo", "BlogApiDemo\BlogApiDemo.csproj", "{6DDEFA5C-C254-45E1-A615-CCC3EFAA2FD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jwt_core_yazikosem", "jwt_core_yazikosem\jwt_core_yazikosem.csproj", "{4386245A-D8EA-4F91-8016-3BD2FBED395D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{B3562717-C579-4169-A86D-B4DAF2C6DCDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3562717-C579-4169-A86D-B4DAF2C6DCDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3562717-C579-4169-A86D-B4DAF2C6DCDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DDEFA5C-C254-45E1-A615-CCC3EFAA2FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DDEFA5C-C254-45E1-A615-CCC3EFAA2FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DDEFA5C-C254-45E1-A615-CCC3EFAA2FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DDEFA5C-C254-45E1-A615-CCC3EFAA2FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4386245A-D8EA-4F91-8016-3BD2FBED395D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4386245A-D8EA-4F91-8016-3BD2FBED395D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4386245A-D8EA-4F91-8016-3BD2FBED395D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4386245A-D8EA-4F91-8016-3BD2FBED395D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

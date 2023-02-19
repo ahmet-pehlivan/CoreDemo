@@ -22,3 +22,15 @@ C:\Users\ahmet\OneDrive\Masaüstü\Codes\CoreDemo\EntityLayer\obj\Debug\net5.0\E
 C:\Users\ahmet\OneDrive\Masaüstü\Codes\CoreDemo\EntityLayer\obj\Debug\net5.0\refint\EntityLayer.dll
 C:\Users\ahmet\OneDrive\Masaüstü\Codes\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
 C:\Users\ahmet\OneDrive\Masaüstü\Codes\CoreDemo\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+D:\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+D:\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+D:\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+D:\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+D:\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+D:\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+D:\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+D:\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+D:\CoreDemo\EntityLayer\obj\Debug\net5.0\refint\EntityLayer.dll
+D:\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+D:\CoreDemo\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll

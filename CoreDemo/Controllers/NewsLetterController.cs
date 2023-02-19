@@ -1,11 +1,13 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoreDemo.Controllers
 {
-	public class NewsLetterController : Controller
+    [AllowAnonymous]
+    public class NewsLetterController : Controller
 	{
 		NewsLetterManager nm = new NewsLetterManager(new EfNewsLetterRepository());
 		[HttpGet]
@@ -13,12 +15,12 @@ namespace CoreDemo.Controllers
 		{
 			return PartialView();
 		}
-		[HttpPost]
+		[HttpPost]  //ajax  jquery uygula
 		public IActionResult SubscribeMail(NewsLetter p)
 		{
 			p.MailStatus=true;
 			nm.AddNewsLetter(p);
-			Response.Redirect("/Blog/BlogReadAll/"+1); //ajax ve jquery uygula
+			Response.Redirect("/Blog/BlogReadAll/"+1); 
 			return PartialView();
 		}
 	}
